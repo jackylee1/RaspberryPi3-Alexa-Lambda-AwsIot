@@ -1,0 +1,23 @@
+WelcomeIntent make me {CoffeeChoice}
+WelcomeIntent make {CoffeeChoice}
+WelcomeIntent start
+WelcomeIntent launch
+CoffeeChoiceIntent {CoffeeChoice}
+RegularStrengthIntent {RegularStrength}
+NumberOfCupsIntent {NumberOfCups}
+NumberOfCupsIntent {NumberOfCups} cup
+NumberOfCupsIntent {NumberOfCups} cups
+ReadyIntent yes
+ReadyIntent i am ready
+ReadyIntent i did
+NotReadyIntent no
+NotReadyIntent i am not ready
+HelpIntent help
+StopIntent Power off
+StopIntent Stop
+StopIntent Cancel
+
+
+CoffeeChoice	CAPPUCCINO | REGULAR COFFEE | REGULAR | MACCHIATO	Delete  Edit
+RegularStrength	MEDIUM | Dark | Mild | NORMAL | STRONG	Delete  Edit
+NumberOfCups	BIG | TWO | SMALL | ONE

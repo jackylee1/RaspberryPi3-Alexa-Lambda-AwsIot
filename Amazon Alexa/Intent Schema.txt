@@ -1,0 +1,55 @@
+{ 
+  "intents": [
+    {
+      "intent": "WelcomeIntent",
+      "slots": [
+        {
+          "name": "CoffeeChoice",
+          "type": "CoffeeChoice"
+        }
+      ]
+    },
+    {
+      "intent": "CoffeeChoiceIntent",
+      "slots": [
+        {
+          "name": "CoffeeChoice",
+          "type": "CoffeeChoice"
+        }
+      ]
+    },
+    {
+      "intent": "RegularStrengthIntent",
+      "slots": [
+        {
+          "name": "RegularStrength",
+          "type": "RegularStrength"
+        }
+      ]
+    },
+    {
+      "intent": "NumberOfCupsIntent",
+      "slots": [
+        {
+          "name": "NumberOfCups",
+          "type": "NumberOfCups"
+        }
+      ]
+    },
+    {
+      "intent": "ReadyIntent"
+    },
+    {
+      "intent": "NotReadyIntent"
+    },
+    {
+      "intent": "StopIntent"
+    },
+    {
+      "intent": "HelpIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+   }
+  ]
+}
